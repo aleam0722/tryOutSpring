@@ -1,9 +1,14 @@
 package cn.chaopin.web;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import cn.chaopin.server.StudentService;
+import org.junit.Test;
 
 public class OutTest {
 
+    private StudentService studentService;
+
+    @Test
+    public void Test(){
+    }
 }
 
