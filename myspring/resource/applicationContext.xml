@@ -4,6 +4,12 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<!--    bean标签：表示一个对象
+        id：表示对象的引用名
+        class；表示对象类型
+ -->
+    <bean id="student" class="cn.chaofan.pojo.Student">
 
+    </bean>
 
 </beans>
