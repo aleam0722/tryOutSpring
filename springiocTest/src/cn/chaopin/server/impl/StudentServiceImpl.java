@@ -6,7 +6,7 @@ import cn.chaopin.server.StudentService;
 public class StudentServiceImpl implements StudentService {
 
     @Override
-    public Student get(String id) {
+    public Student get(int id) {
         return null;
     }
 }
