@@ -9,7 +9,10 @@
         class；表示对象类型
  -->
     <bean id="student" class="cn.chaofan.pojo.Student">
-
+<!--        实现依赖注入：dependency injection-->
+        <property name="name" value="wangyujiao"/>
+        <property name="id" value="001"/>
+        <property name="gender" value="female"/>
     </bean>
 
 </beans>
