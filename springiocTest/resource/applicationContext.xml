@@ -5,7 +5,8 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean name="student" class="">
+<!--    设置关于studentService的对象标签-->
+    <bean name="studentService" class="cn.chaopin.server.impl.StudentServiceImpl"/>
 
 
 </beans>
