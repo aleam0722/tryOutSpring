@@ -14,6 +14,8 @@ public class OutTest {
 //        在web层获取到studentService对象
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         StudentService studentService = (StudentService) applicationContext.getBean("studentService");
+//         调用get方法
+        studentService.get("");
     }
 }
 
